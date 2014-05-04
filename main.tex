@@ -14,13 +14,11 @@
 \begingroup  
   \centering
   \LARGE AP Physics Notes\\[1ex]
-  \large Prathmesh Desai\par
 \endgroup
 
 \section{Kinematics}
 \subsection{Position, Velocity, and Acceleration}
 \begin{multicols}{2}
-
 \[\frac{d\vec{x}}{dt}=\vec{v}(t)\]
 \[\frac{d^2\vec{x}}{dt^2}=\frac{d\vec{v}}{dt}=\vec{a}(t)\]
 \[\bar{v}=\frac{\Delta{x}}{\Delta{t}}\]
@@ -45,9 +43,7 @@ Freefall and Projectile Motion:
 \includegraphics[width=8cm]{ProjectileMotion.jpg}
 
 \end{multicols}
-
-Sample Problems: \vspace{1em}
-
+\textbf{Sample Problems:}
 \begin{multicols}{2}
 A loose nail falls from the top of an elevator shaft.  At the same instant 25 m below is the roof of an elevator car rising at a constant 3.0 m/s. \\*\\* Find: \\*
 \begin{enumerate}[label=\alph*]
@@ -74,27 +70,90 @@ So \textit{t} is the solution to the equation:
 
 \end{multicols}
 
+\noindent\centerline{\rule{5cm}{0.4pt}}
+
 \begin {multicols}{2}
 Suppose a volleyball player wants to serve the ball such that it just barely passes over the net.  Let x represent the horizontal distance to the net and y represent the height of the net relative to the launch point of the ball.
 \\*\\*
 Derive an equation that gives the initial launch angle in terms of x and y.
 \columnbreak
-\[v_x\]
+\[y=v_isin(\theta)t+\frac{at^2}{2} \indent x=v_icos(\theta)t\]
+\[v_i=\frac{y+\frac{gt^2}{2}}{tsin(\theta)}=\frac{x}{tcos(\theta)}\]
+\[y+\frac{gt^2}{2}=\frac{xtsin(\theta)}{tcos(\theta)}=xtan(\theta)\]
+\[y=\frac{gt^2}{2} \indent y+y=xtan(\theta) \indent \theta=tan^{-1}(\frac{2y}{x})\]
 \end{multicols}
 
-\subsection{Forces and Newton's Laws of Motion}
-\subsubsection{Newton's First Law of Motion}
+\section{Dynamics}
+\subsection{Newton's First Law of Motion}
 
 Every object in a state of uniform motion tends to remain in that state of motion unless an external force is applied to it.
+\\\\
+\textbf{Inertia}: a property of matter by which it continues in its existing state of rest or uniform motion in a straight line, unless that state is changed by an external force.
 
-\subsubsection{Newton's Second Law of Motion}
+\begin{multicols}{2}
+\textbf{For instance} inertia is evident in the famous ``parlor trick'' where the  tablecloth is pulled from under the plates, tumblers, and silverware in a full dining setting. In this case the objects on the table are at rest, and, unless an external force is applied to each individual object, they will remain at rest. When the table cloth is pulled out from under the objects there are no significant external forces in play (friction is negligible if done correctly), and as a result only the tablecloth is removed.
+\columnbreak
+\centerline{\includegraphics[width=5cm]{tableInertia.png}}
+\end{multicols}
 
-The vector sum of the forces $\vec{F}$ on an object is equal to the mass m of that object multiplied by the acceleration $\vec{a}$ of the object.
+\subsection{Newton's Second Law of Motion}
+
+The vector sum of the forces $\vec{F}$ on an object is equal to the mass $m$ of that object multiplied by the acceleration $\vec{a}$ of the object. $\vec{a}$ and $m$ are both directly proportional to $\vec{F}$. The $\vec{F}$ is the vector sum of all \emph{EXTERNAL} forces, so any internal interactions can be ignored.
 
 \[\Sigma\vec{F}=m\vec{a}\]
 
-\subsubsection{Newton's Third Law of Motion}
+\subsection{Newton's Third Law of Motion}
 
 When one body exerts a force on a second body, the second body simultaneously exerts a force equal in magnitude and opposite in direction on the first body.
+\begin{multicols}{2}
+\centerline{\includegraphics[width=6cm]{thirdLaw.png}}
+\columnbreak
+Without specifying the nature or origin of the forces on the two masses, Newton's 3rd law states that if they arise from the two masses themselves, they must be equal in magnitude but opposite in direction so that no net force arises from purely internal forces.
+\end{multicols}
+
+\subsection{Frictional Forces}
+
+The weight of an object is defined as the force of gravity on the object and may be calculated as the mass times the acceleration of gravity.
+\[Weight=F_g=mg \indent g=9.8\frac{m}{s^2}\]
+
+Frictional resistance to the relative motion of two solid objects is usually proportional to the force which presses the surfaces together as well as the roughness of the surfaces. Since it is the force perpendicular or ``normal'' to the surfaces which affects the frictional resistance, this force is typically called the ``normal force'' and designated by $F_N$.
+\[F_{friction}=\mu F_N\]
+\begin{multicols}{2}
+\noindent$F_N$ is the component of force perpendicular to the surface (surface being a plane) of contact.
+\[\mu_s>\mu_k\]
+\centerline{$\mu_s$ -- Coefficient of static friction}\\*
+\centerline{$\mu_k$ -- Coefficient of kinetic friction}
+\columnbreak
+\centerline{\includegraphics[width=4cm]{normalForce.png}}
+\end{multicols}
+
+\subsection{Circular Motion}
+Anything in circular motion is always accelerating towards the center, this value is called centripetal acceleration. Centripetal means ``center-seeking''. Velocity in circular motion is directed tangential to the circular path of the object.
+
+\begin{multicols}{2}
+\[\vec{v}=\frac{2\pi r}{T}\]
+\[\vec{a}=\frac{v^2}{r}\]
+\[\Sigma\vec{F}=m(\vec{a})=\frac{mv^2}{r}\]
+\columnbreak
+\centerline{\includegraphics[width=3cm]{circularMotion.png}}
+\end{multicols}
+
+\subsection{Atwood's Machine}
+Frictionless and massless pulley:
+
+\begin{multicols}{2}
+\centerline{\includegraphics[width=3cm]{atwood.png}}
+\columnbreak
+\[T=m_1g+\Sigma\vec{F}=m_1g+m_1\vec{a}=m_2g-m_2\vec{a}\]
+\[m_2g-m_1g-m_1\vec{a}=m_2\vec{a}\]
+\[\vec{a}=\frac{g(m_2-m_1)}{m_2+m_1}\]
+\end{multicols}
+
+\subsection{Air Resistance}
+\textbf{Air resistance} is the result of collisions of the object's leading surface with air molecules, and it depends on the speed of the object and the cross-sectional area of the object. Eventually the force of air resistance equals the force of gravity, and prohibits any futher acceleration ($\vec{F_{net}}=0$). This state of freefall is called \textbf{terminal velocity}. Usually it is assumed that air resistance is proportional to speed or that it is proportional to the square of the speed (more accurate).
+\[\vec{F}_{air}=kv \indent or \indent \vec{F}_{air}=kv^2\]
+
+\textbf{Sample Problems:}
+
 
 \end{document}
