@@ -2,6 +2,9 @@
 \renewcommand \thesection{\roman{section}}
 \usepackage[utf8]{inputenc}
 \usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage[margin=1in]{geometry}
 \usepackage{multicol}
@@ -95,13 +98,13 @@
     		Derive an equation that gives the initial launch angle in terms of x and y.
     	\columnbreak
     		\[
-            	y=v_isin(\theta)t+\frac{at^2}{2} \indent x=v_icos(\theta)t
+            	y=v_i\sin(\theta)t+\frac{at^2}{2} \indent x=v_i\cos(\theta)t
             \]
     		\[
-            	v_i=\frac{y+\frac{gt^2}{2}}{tsin(\theta)}=\frac{x}{tcos(\theta)}
+            	v_i=\frac{y+\frac{gt^2}{2}}{t\sin(\theta)}=\frac{x}{t\cos(\theta)}
             \]
     		\[
-            	y+\frac{gt^2}{2}=\frac{xtsin(\theta)}{tcos(\theta)}=xtan(\theta)
+            	y+\frac{gt^2}{2}=\frac{xt\sin(\theta)}{t\cos(\theta)}=xtan(\theta)
             \]
     		\[
             	y=\frac{gt^2}{2} \indent y+y=xtan(\theta) \indent \theta=tan^{-1}(\frac{2y}{x})
@@ -180,12 +183,51 @@
   	\subsection{Air Resistance}
   		\textbf{Air resistance} is the result of collisions of the object's leading surface with air molecules, and it depends on the speed of the object and the cross-sectional area of the object. Eventually the force of air resistance equals the force of gravity, and prohibits any futher acceleration ($\vec{F_{net}}=0$). This state of freefall is called \textbf{terminal velocity}. Usually it is assumed that air resistance is proportional to speed or that it is proportional to the square of the speed (more accurate).
   		\[
-        	\vec{F}_{air}=kv \indent or \indent \vec{F}_{air}=kv^2
+        	\vec{F}_{D}\approx -k\vec{v} \indent or \indent \vec{F}_{D}\approx k\vec{v}^2
         \]
-  
+        Air Resistance is demonstrated in the following Position, Velocity, and Acceleration vs. Time graphs:\\
+        \centerline{
+  			\includegraphics[width=5cm]{pvt_air.png}
+        	\includegraphics[width=5cm]{vvt_air.png}
+        	\includegraphics[width=5cm]{avt_air.png}
+        }
   		\textbf{Sample Problems:}
-  
-  		\begin{multicols}{2}
+        \begin{multicols}{2}
+        Suppose a baseball of mass $m$ is falling through the air at a velocity $\vec{v}$ that is proportional to drag force $\vec{F}_D$. Solve for $\vec{v}$.
+        \[
+        	\Sigma\vec{F}=m\vec{a}=\vec{F}_g-\vec{F}_D=mg-k\vec{v}
+        \]
+        Guess and check method:
+        \[
+        	\vec{v}(t)=Ae^{Bt}+C \indent \vec{a}=\frac{d\vec{v}}{dt}=ABe^{Bt}
+        \]
+        \[
+        	m\vec{a}=mg-k\vec{v} \indent m(ABe^{Bt})=mg-k(Ae^{Bt}+C)
+        \]
+        \[
+        	mABe^{Bt}=mg-kAe^{Bt}-kC
+        \]
+        \columnbreak
+        \[
+        	0=mg-kC \indent mg=kC \indent C=\frac{mg}{k} \indent \text{(C)}
+        \]
+        \[
+        	mABe^{Bt}=-kAe^{Bt} \indent mB=-k \indent B=\frac{-k}{m} \indent \text{(B)}
+        \]
+        \[
+        	\vec{v}(t)=Ae^{Bt}+C=Ae^{-kt}{m}+\frac{mg}{k}
+        \]
+        \[
+        	\vec{v}(0)=Ae^{-k(0)}{m}+\frac{mg}{k} \indent A=\frac{-mg}{k} \indent \text{(A)}
+        \]
+        \[
+        	\therefore \indent \vec{v}(t)=\frac{mg}{k}(1-e^{\frac{-kt}{m}})
+        \]
+        \end{multicols}
+        
+        \noindent\centerline{\rule{5cm}{0.4pt}}
+  		
+        \begin{multicols}{2}
   			Must an object always move in the direction of the net force acting upon it?  Explain and give examples to support your answer.
   			\vfill
   		\columnbreak
@@ -208,13 +250,13 @@
   			\centerline{\includegraphics[width=5cm]{dice.png}}
   		\columnbreak
   			\[
-            	\Sigma\vec{F}=m\vec{a}=\vec{T}sin(\theta)
+            	\Sigma\vec{F}=m\vec{a}=\vec{T}\sin(\theta)
             \]
   			\[
-            	\vec{T}cos(\theta)=mg \indent \vec{T}=\frac{mg}{cos(\theta)}
+            	\vec{T}\cos(\theta)=mg \indent \vec{T}=\frac{mg}{\cos(\theta)}
             \]
   			\[
-            	m\vec{a}=\frac{mgsin(\theta)}{cos(\theta)}
+            	m\vec{a}=\frac{mg\sin(\theta)}{\cos(\theta)}
             \]
   			\[
             	\frac{\vec{a}}{g}=tan(\theta)
@@ -231,23 +273,26 @@
   			\centerline{\includegraphics[width=6cm]{frictionPlane.png}}
   			\vfill
   		\columnbreak
-  			\noindent{Net force for $m_1$ (smaller block):}
+  			\noindent\textit{Net force for $m_1$ (smaller block):}
   			\[
-            	\Sigma\vec{F}=m_1\vec{a}=T-m_1 gsin(\theta)-\mu_km_1gcos(\theta)
+            	\Sigma\vec{F}=m_1\vec{a}=T-m_1 g\sin(\theta)-\mu_km_1g\cos(\theta)
             \]
-  			Net force for $m_2$ (larger block):
+  			\textit{Net force for $m_2$ (larger block):}
   			\[
-            	\Sigma\vec{F}=m_2\vec{a}=m_2gsin(\theta)-T-\mu_km_1gcos(\theta)-\mu_k(m_1+m_2)gcos(\theta)
+            	\Sigma\vec{F}=m_2\vec{a}=m_2g\sin(\theta)-T-\mu_km_1g\cos(\theta)-\mu_k(m_1+m_2)g\cos(\theta)
             \]
+            
        	\end{multicols}
   
   		\noindent\centerline{\rule{10cm}{0.4pt}}
   
   \section{Circular Motion and Gravity}
   
-  	\subsection{Circular Motion}
+  	\subsection{Uniform Circular Motion}
   		Anything in circular motion is always accelerating towards the center, this value is called centripetal acceleration. Centripetal means ``center-seeking''. Velocity in circular motion is directed tangential to the circular path of the object.
   		\begin{multicols}{2}
+        	\centerline{\includegraphics[width=5cm]{circularMotion.png}}
+            \columnbreak
   			\[
             	\vec{v}=\frac{2\pi r}{T}
             \]
@@ -257,11 +302,33 @@
   			\[
             	\Sigma\vec{F}=m(\vec{a})=\frac{mv^2}{r}
             \]
-  		\columnbreak
-  			\centerline{\includegraphics[width=3cm]{circularMotion.png}}
-  		\end{multicols}
-  
-  	\subsection{Gravity}
-  
-
+            \[
+            	f=\frac{1}{T}
+            \]
+      	\end{multicols}
+  	\subsection{Non-uniform Circular Motion}
+    	Non-uniform circular motion is any case in which an object moving in a circular path has a varying speed. The tangential acceleration is non-zero; the speed is changing.The net acceleration is no longer pointing towards the center, so there are two components of acceleration that we would need to account for:\vspace{1ex}
+        \begin{multicols}{2}
+        	\begin{enumerate}
+        		\item Radial/centripetal acceleration ($a_R$)
+            	\item Tangential acceleration ($a_\theta$)
+        	\end{enumerate}
+            \centerline{\includegraphics[width=6cm]{noncirc.png}}
+       	\columnbreak
+        	\[
+            	\lvert\vec{a}\rvert=\sqrt{\vec{a_\theta}^2+\vec{a_R}^2}
+            \]
+        	\noindent{Suppose centripetal force was denoted $\vec{T}$, then:}
+            \[
+            	\vec{T}-mg\cos(\theta) = m\vec{a}_R = \frac{m\vec{v}^2}{r} \indent \text{(Radial Dir.)}
+            \]
+            \[
+            	mg\sin(\theta)=m\vec{a}_\theta \indent \text{(Tangential Dir.)}
+            \]
+            We note that velocity, tangential acceleration and tangential force all act along the same direction.
+            \[
+            	\vec{a}_\theta=\frac{d\vec{v}}{dt}
+            \]
+        \end{multicols}
+        
 \end{document}
