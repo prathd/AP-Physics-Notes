@@ -107,7 +107,7 @@
             	y+\frac{gt^2}{2}=\frac{xt\sin(\theta)}{t\cos(\theta)}=xtan(\theta)
             \]
     		\[
-            	y=\frac{gt^2}{2} \indent y+y=xtan(\theta) \indent \theta=tan^{-1}(\frac{2y}{x})
+            	y=\frac{gt^2}{2} \indent y+y=xtan(\theta) \indent \therefore \theta=tan^{-1}(\frac{2y}{x})
             \]
     	\end{multicols}
    	\noindent\centerline{\rule{10cm}{0.4pt}}
@@ -169,6 +169,9 @@
   		\begin{multicols}{2}
   			\centerline{\includegraphics[width=3cm]{atwood.png}}
   		\columnbreak
+        	\[
+            	m_2>m_1
+            \]
   			\[
             	T=m_1g+\Sigma\vec{F}=m_1g+m_1\vec{a}=m_2g-m_2\vec{a}
             \]
@@ -176,7 +179,7 @@
             	m_2g-m_1g-m_1\vec{a}=m_2\vec{a}
             \]
   			\[
-            	\vec{a}=\frac{g(m_2-m_1)}{m_2+m_1}
+            	\therefore\vec{a}=\frac{g(m_2-m_1)}{m_2+m_1}
             \]
   		\end{multicols}
   
@@ -184,6 +187,7 @@
   		\textbf{Air resistance} is the result of collisions of the object's leading surface with air molecules, and it depends on the speed of the object and the cross-sectional area of the object. Eventually the force of air resistance equals the force of gravity, and prohibits any futher acceleration ($\vec{F_{net}}=0$). This state of freefall is called \textbf{terminal velocity}. Usually it is assumed that air resistance is proportional to speed or that it is proportional to the square of the speed (more accurate).
   		\[
         	\vec{F}_{D}\approx -k\vec{v} \indent or \indent \vec{F}_{D}\approx k\vec{v}^2
+            \indent \text{Force of drag through a fluid: } \frac{1}{2}\rho v^2 C_D A
         \]
         Air Resistance is demonstrated in the following Position, Velocity, and Acceleration vs. Time graphs:\\
         \centerline{
@@ -193,7 +197,7 @@
         }
   		\textbf{Sample Problems:}
         \begin{multicols}{2}
-        Suppose a baseball of mass $m$ is falling through the air at a velocity $\vec{v}$ that is proportional to drag force $\vec{F}_D$. Solve for $\vec{v}$.
+        Suppose a baseball of mass $m$ is falling through the air at a velocity $\vec{v}$ that is proportional to drag force $\vec{F}_D$. Solve for $\vec{v}(t)$.
         \[
         	\Sigma\vec{F}=m\vec{a}=\vec{F}_g-\vec{F}_D=mg-k\vec{v}
         \]
@@ -215,7 +219,7 @@
         	mABe^{Bt}=-kAe^{Bt} \indent mB=-k \indent B=\frac{-k}{m} \indent \text{(B)}
         \]
         \[
-        	\vec{v}(t)=Ae^{Bt}+C=Ae^{-kt}{m}+\frac{mg}{k}
+        	\vec{v}(t)=Ae^{Bt}+C=Ae^{\frac{-kt}{m}}+\frac{mg}{k}
         \]
         \[
         	\vec{v}(0)=Ae^{-k(0)}{m}+\frac{mg}{k} \indent A=\frac{-mg}{k} \indent \text{(A)}
@@ -262,14 +266,15 @@
             	\frac{\vec{a}}{g}=tan(\theta)
             \]
   			\[
-            	\theta=tan^{-1}\frac{\vec{a}}{g}=tan^{-1}(\frac{3.00\frac{m}{s^2}}{9.8\frac{m}{s^2}})=17.02^{\circ}
+            	\therefore\theta=tan^{-1}\frac{\vec{a}}{g}=tan^{-1}(\frac{3.00\frac{m}{s^2}}{9.8\frac{m}{s^2}})=17.02^{\circ}
             \]
   		\end{multicols}
   
   		\noindent\centerline{\rule{5cm}{0.4pt}}
   
   		\begin{multicols}{2}
-  			As shown in the diagram below, two blocks are connected by a lightweight cord that passes over a frictionless, massless pulley.  The bottom block has a mass of $2.00 kg$ and the top block has mass $0.500 kg$.  The coefficient of kinetic friction at each sliding surface is equal to $0.10$.  The two blocks are release from rest.  Determine the acceleration, $\vec{a}$, of each block.
+  			As shown in the diagram below, two blocks are connected by a lightweight cord that passes over a frictionless, massless pulley.  The bottom block has a mass of $2.00 kg$ and the top block has mass $0.500 kg$.  The coefficient of kinetic friction at each sliding surface is equal to $0.10$.  The two blocks are release from rest.  Determine the acceleration, $\vec{a}$, of each block.\\\\
+            \vfill
   			\centerline{\includegraphics[width=6cm]{frictionPlane.png}}
   			\vfill
   		\columnbreak
@@ -281,10 +286,27 @@
   			\[
             	\Sigma\vec{F}=m_2\vec{a}=m_2g\sin(\theta)-T-\mu_km_1g\cos(\theta)-\mu_k(m_1+m_2)g\cos(\theta)
             \]
-            
+            \textit{Solve for $\vec{a}$:}
+            \[
+            	\vec{T}=m_2g\sin(\theta)-\mu_km_1g\cos(\theta)-\mu_k(m_1+m_2)g\cos(\theta)-m_2\vec{a}
+            \]
+            \[
+            	T=m_1\vec{a}+m_1 g\sin(\theta)+\mu_km_1g\cos(\theta)
+            \]
+            \[
+            	\vec{a}=\frac
+                {-g((3m_1+m_2)\cos(\theta)\mu_k+(m_1-m_2)\sin(\theta))}
+                {(m_1+m_2)}
+            \]
+            \[
+            	\therefore\text{Small Block: }\vec{a}=1.75\frac{m}{s^2} \text{, $150^{\circ}$}
+            \]
+            \[
+            	\therefore\text{Large Block: }\vec{a}=1.75\frac{m}{s^2} \text{, $330^{\circ}$}
+            \]
        	\end{multicols}
-  
-  		\noindent\centerline{\rule{10cm}{0.4pt}}
+        
+		\noindent\centerline{\rule{10cm}{0.4pt}}
   
   \section{Circular Motion and Gravity}
   
@@ -306,28 +328,77 @@
             	f=\frac{1}{T}
             \]
       	\end{multicols}
+        
+        \noindent{\centerline{\rule{5cm}{0.4pt}}}
+		Sample Problem:
+        \begin{multicols}{2}
+            A car of mass $m$ goes around a curve of radius $r$ banked at an angle of $\theta$ above horizontal.  (a) At what speed could the car complete this curve without the aid of lateral friction?  (b) Given $\mu_s$ determine the maximum speed at which the car can go around the same curve.
+            \centerline{\includegraphics[width=5cm]{bankedCurve.png}}
+            Because $\Sigma\vec{F}$ is only in the x-direction we do not need to worry about the y-component.
+            \[
+            	mg=N\cos(\theta)
+            \]
+            \[
+            	N=\frac{mg}{cos(\theta)}
+            \]
+            \[
+            	N_x=N\sin(\theta)=mg\tan(\theta)
+            \]
+            \[
+            	-N=\Sigma\vec{F}=\frac{-mv^2}{r}
+            \]
+            \[
+            	g\tan(\theta)=\frac{v^2}{r}
+            \]
+            \[
+            	\therefore \vec{v}=\sqrt{rg\tan(\theta)}
+            \]
+            \vfill
+		\columnbreak
+            \noindent{y-direction ($\Sigma\vec{F}=0$):}
+            \[
+            	N\cos(\theta)-mg-f\sin(\theta)=0
+            \]
+            \[
+            	N\cos(\theta)-\mu_sN\sin(\theta)=mg
+            \]
+            \[
+            	N=\frac{mg}{\cos(\theta)-\mu_s\sin(\theta)}
+            \]
+            x-direction($\Sigma\vec{F}=\frac{mv^2}{r}$)
+            \[
+            	-f\cos(\theta)-N\sin(\theta)=-\frac{mv^2}{r}
+			\]
+            \[
+            	N(\sin(\theta)+\mu_s\cos(\theta))=\frac{mv^2}{r}
+            \]
+            \[
+            	N=\frac{mv^2}{r(\sin(\theta)+\mu_s\cos(\theta))}
+            \]
+            Solve for $\vec{v}$:
+            \[
+            	N=\frac{mg}{\cos(\theta)-\mu_s\sin(\theta)}=\frac{mv^2}{r(\sin(\theta)+\mu_s\cos(\theta))}
+            \]
+            \[
+            	\therefore \vec{v}=\sqrt{rg(\frac{\sin(\theta)+\mu_s\cos(\theta)}{\cos(\theta)-\mu_s\sin(\theta)})}
+            \]
+        \end{multicols}
+        
   	\subsection{Non-uniform Circular Motion}
     	Non-uniform circular motion is any case in which an object moving in a circular path has a varying speed. The tangential acceleration is non-zero; the speed is changing.The net acceleration is no longer pointing towards the center, so there are two components of acceleration that we would need to account for:\vspace{1ex}
         \begin{multicols}{2}
+            \centerline{\includegraphics[width=6cm]{noncirc.png}}
+       	\columnbreak
         	\begin{enumerate}
         		\item Radial/centripetal acceleration ($a_R$)
             	\item Tangential acceleration ($a_\theta$)
         	\end{enumerate}
-            \centerline{\includegraphics[width=6cm]{noncirc.png}}
-       	\columnbreak
         	\[
             	\lvert\vec{a}\rvert=\sqrt{\vec{a_\theta}^2+\vec{a_R}^2}
             \]
-        	\noindent{Suppose centripetal force was denoted $\vec{T}$, then:}
-            \[
-            	\vec{T}-mg\cos(\theta) = m\vec{a}_R = \frac{m\vec{v}^2}{r} \indent \text{(Radial Dir.)}
-            \]
-            \[
-            	mg\sin(\theta)=m\vec{a}_\theta \indent \text{(Tangential Dir.)}
-            \]
             We note that velocity, tangential acceleration and tangential force all act along the same direction.
             \[
-            	\vec{a}_\theta=\frac{d\vec{v}}{dt}
+            	a_\theta=\frac{dv}{dt}
             \]
         \end{multicols}
         
