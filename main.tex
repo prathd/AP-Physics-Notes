@@ -12,15 +12,14 @@
 \setlist{nolistsep}
 \setlength{\columnsep}{1cm}
 \title{AP Physics Notes}
+\author{Prathmesh Desai}
+\date{May 2014}
 \begin{document}
-  
-  \begingroup  
-    \centering
-    \LARGE AP Physics Notes\\[1ex]
-  \endgroup
-  
-  \section{Kinematics}
-    \subsection{Position, Velocity, and Acceleration}
+\maketitle
+\tableofcontents
+\newpage
+\section{Kinematics}
+	\subsection{Position, Velocity, and Acceleration}
     	\begin{multicols}{2}
     		\[
             	\frac{d\vec{x}}{dt}=\vec{v}(t)
@@ -61,7 +60,7 @@
     		\vspace{2ex}
     		\includegraphics[width=8cm]{ProjectileMotion.jpg}
     	\end{multicols}
-    \textbf{Sample Problems:}
+    \noindent\textbf{Sample Problems:}
     	\begin{multicols}{2}
     		A loose nail falls from the top of an elevator shaft.  At the same instant 25 m below is the roof of an elevator car rising at a constant 3.0 m/s. \\*\\* Find: \\*
     		\begin{enumerate}[label=\alph*]
@@ -110,8 +109,8 @@
             	y=\frac{gt^2}{2} \indent y+y=xtan(\theta) \indent \therefore \theta=tan^{-1}(\frac{2y}{x})
             \]
     	\end{multicols}
-   	\noindent\centerline{\rule{10cm}{0.4pt}}
-  \section{Dynamics}
+        
+\section{Dynamics}
   	\subsection{Newton's First Law of Motion}
   
   		Every object in a state of uniform motion tends to remain in that state of motion unless an external force is applied to it.
@@ -305,10 +304,8 @@
             	\therefore\text{Large Block: }\vec{a}=1.75\frac{m}{s^2} \text{, $330^{\circ}$}
             \]
        	\end{multicols}
-        
-		\noindent\centerline{\rule{10cm}{0.4pt}}
-  
-  \section{Circular Motion and Gravity}
+          
+\section{Circular Motion and Gravity}
   
   	\subsection{Uniform Circular Motion}
   		Anything in circular motion is always accelerating towards the center, this value is called centripetal acceleration. Centripetal means ``center-seeking''. Velocity in circular motion is directed tangential to the circular path of the object.
@@ -319,20 +316,19 @@
             	\vec{v}=\frac{2\pi r}{T}
             \]
   			\[
-            	\vec{a}=\frac{v^2}{r}
+            	\vec{a_c}=\frac{v^2}{r}
             \]
   			\[
-            	\Sigma\vec{F}=m(\vec{a})=\frac{mv^2}{r}
+            	\Sigma\vec{F}=m(\vec{a_c})=\frac{mv^2}{r}
             \]
             \[
             	f=\frac{1}{T}
             \]
       	\end{multicols}
         
-        \noindent{\centerline{\rule{5cm}{0.4pt}}}
-		Sample Problem:
+		\textbf{Sample Problem:}
         \begin{multicols}{2}
-            A car of mass $m$ goes around a curve of radius $r$ banked at an angle of $\theta$ above horizontal.  (a) At what speed could the car complete this curve without the aid of lateral friction?  (b) Given $\mu_s$ determine the maximum speed at which the car can go around the same curve.
+            A car of mass $m$ goes around a curve of radius $r$ banked at an angle of $\theta$ above horizontal. (a) At what speed could the car complete this curve without the aid of lateral friction? (b) Given $\mu_s$ determine the maximum speed at which the car can go around the same curve.
             \centerline{\includegraphics[width=5cm]{bankedCurve.png}}
             Because $\Sigma\vec{F}$ is only in the x-direction we do not need to worry about the y-component.
             \[
@@ -384,6 +380,33 @@
             \]
         \end{multicols}
         
+	\subsection{Parametric Equations}
+    	When a situation is two- or three-dimensional (which is essintially all the time), the position/velocity/acceleration can be determined using parametric equations. Parametric equations are basically equations (shocker!) that describe the behaviour of the components of the object, rather than the vector sum of the components.
+        \[
+        	r_x=x(t) \hspace{1ex} \hat{i} \indent
+            r_y=y(t) \hspace{1ex} \hat{j} \indent
+            r_z=z(t) \hspace{1ex} \hat{k} \indent
+        \]
+        \[
+        	v_x=\frac{dx}{dt} \hspace{1ex} \hat{i} \indent
+            v_y=\frac{dy}{dt} \hspace{1ex} \hat{j} \indent
+            v_z=\frac{dz}{dt} \hspace{1ex} \hat{k}
+        \]
+        \[
+        	a_x=\frac{dv_x}{dt}=\frac{d^2v_x}{dt^2} \hspace{1ex} \hat{i} \indent
+            a_y=\frac{dv_y}{dt}=\frac{d^2v_y}{dt^2} \hspace{1ex} \hat{j} \indent
+            a_z=\frac{dv_z}{dt}=\frac{d^2v_z}{dt^2} \hspace{1ex} \hat{k}
+        \]
+        \[
+        	\vec{r}^2=r_x^2+r_y^2+r_z^2
+        \]
+        \[
+        	\vec{v}^2=v_x^2+v_y^2+v_z^2
+        \]
+        \[
+        	\vec{a}^2=a_x^2+a_y^2+a_z^2
+        \]
+
   	\subsection{Non-uniform Circular Motion}
     	Non-uniform circular motion is any case in which an object moving in a circular path has a varying speed. The tangential acceleration is non-zero; the speed is changing.The net acceleration is no longer pointing towards the center, so there are two components of acceleration that we would need to account for:\vspace{1ex}
         \begin{multicols}{2}
@@ -401,5 +424,162 @@
             	a_\theta=\frac{dv}{dt}
             \]
         \end{multicols}
+        
+        \noindent\textbf{Sample Problem:}
+        \begin{multicols}{2}
+        A kid plays with a yo-yo of mass $m$ and twirls it in a vertical circle.  The length of the string is $l$.  The kid twirls it just fast enough to keep it moving in a complete circle – this results in a centripetal acceleration of 5.00 $g$ at the lowest point. (a) Find the speed of the yo-yo at the highest point. (b) Find the speed at the lowest point.
+        \vfill
+        \columnbreak
+        \noindent{\textit{Find $v$ at highest point:}}
+        \[
+        	\Sigma\vec{F}=m\vec{a}=mg \indent
+            \vec{a}=g
+        \]
+        \[
+        	\vec{a}=\frac{v^2}{r} \indent
+            v=\sqrt{\vec{a}r}=\sqrt{gr}
+        \]
+        \textit{Find $v$ at lowest point:}
+        \[
+        	\vec{a}=5g \indent
+            v=\sqrt{\vec{a}r}=\sqrt{5gr}
+        \]        
+        \end{multicols}
+
+	\subsection{Newton's Universal Law of Gravitation}
+    	Newton's law of universal gravitation states that any two bodies in the universe attract each other with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.
+        
+        \[
+        	\vec{F_G}=G\frac{m_1m_2}{r^2} \indent
+            G=6.674x10^{-11}\frac{Nm^2}{kg^2}
+        \]
+        
+	\subsection{Gravitational Field Strenth}
+    	A value ($g$) that is the strength of the gravitational field (acceleration due to gravity) at some place given mass $M$ and radius $r^2$ of object producing the field.
+        \[
+        	g=\frac{GM}{r^2}
+        \]
+        
+  		\noindent\textbf{Sample Problems:}
+        
+        \begin{multicols}{2}
+        	In 1995, the Galileo robotic spacecraft released a probe into Jupiter’s atmosphere.  When traveling at $v_1 \frac{m}{s}$ the $m$ kg-probe’s main chute deployed and slowed it to $v_2 \frac{m}{s}$ in $t$ seconds.\\\\ (a) Find the force of Jupiter’s gravity acting on the probe.\\\\ (b) Determine the force that the cords of the chute had to withstand.
+		\columnbreak
+        \vfill
+        	\noindent{Solve for $F_{jupiter}$}
+        	\[
+            	F_{jupiter}=G\frac{m_{chute}m_{jupiter}}{r_{jupiter}^2}
+            \]
+            Solve for $F_T$ exerted by the cords:
+            \[
+            	\Sigma\vec{F}=m\vec{a}=F_T-F_g
+            \]
+            \[
+            	m(\frac{\Delta v}{t})=F_T-F_g
+            \]
+            \[
+            	F_T=G\frac{m_{chute}m_{jupiter}}{r_{jupiter}^2}+\frac{v_1-v_2}{t}
+            \]
+        \end{multicols}
+        
+        \noindent{\centerline{\rule{5cm}{0.4pt}}}
+        
+        \begin{multicols}{2}
+        	It can be shown that the value of $g$ inside an empty spherical shell is zero at all points inside the shell (no matter how massive the shell).  Suppose the Earth had uniform density.\\\\ (a) Use these two ideas to solve for $g$ inside the Earth. (Inside the Earth, at any point a distance $r$ from the center, only the mass contained in a sphere of radius $r$ has a net gravitational effect.  All mass between $r$ and the surface has a net gravitational effect of zero.)\\\\ (b) Sketch a graph of $g$ versus $r$ extending from $r = 0$ to $r = 2R_E$.\\\\            \centerline{\includegraphics[width=6cm]{p27.png}}
+            \vfill
+		\columnbreak
+        	\noindent{Write down equations:}
+            \[
+            	F_g=G\frac{m_1m_2}{r^2} \indent
+                g=\frac{GM_E}{r^2}
+            \]
+            Find ratio of r and $R_E$
+            \[
+            	V_r=\frac{4}{3}\pi r^3 \indent
+                V_{R_E}=\frac{4}{3}\pi R_E^3
+            \]
+            \[
+            	\frac
+                {\frac{4}{3}\pi r^3}
+                {\frac{4}{3}\pi R_E^3}
+                \indent
+                \rightarrow
+                \indent
+                (\frac{r}{R_E})^3
+            \]
+            \[
+            	g=\frac{GM_Er^3}{r^2R_E^3}=\frac{GM_Er}{R_E^3}
+            \]
+            \[
+            	g=\frac{r}{R_E}g_{surface}
+            \]
+            Graph $g$ vs. $r$ from $0$ to $2R_E$\\\\
+            \centerline{\includegraphics[width=8cm]{graph27.png}}
+        \end{multicols}
+        
+	\subsection{Keplar's Laws of Planetary Motion}
+        In astronomy, Kepler's laws of planetary motion are three scientific laws describing the motion of planets around the Sun.
+        \vspace{1ex}
+        \begin{enumerate}
+        	\item The orbit of a planet is an ellipse with the Sun at one of the two foci.
+            \item A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time.
+            \item The square of the orbital period of a planet is proportional to the cube of the semi-major axis of its orbit.
+        \end{enumerate}
+        \begin{multicols}{2}
+        	\centerline{\includegraphics[width=7cm]{keplar.png}}
+		\columnbreak
+        	Keplar's second law is demonstrated by the image, where $A1=A2$ IF they were both swept out in the same amount of time.
+            \\\\
+            Derive Keplar's Third Law:
+            \[
+            	\vec{F}_c=\vec{F}_g \indent
+                \frac{m_2\vec{v}^2}{r}=G\frac{m_1m_2}{r^2}
+            \]
+            \[
+            	\vec{v}=\sqrt{\frac{GM}{r}}=\frac{2\pi r}{T}
+            \]
+            \[
+            	\frac{r^3}{T^2}=\frac{GM}{4\pi^2} = constant
+            \]
+            \[
+            	r^3 \propto T^2
+            \]
+        \end{multicols}
+        
+        \noindent{\textbf{Sample Problem:}}
+        \begin{multicols}{2}
+        	
+			Two planets travel in circular orbits around a star.  Planet A has speed $v$ and planet B has speed $3v$.\\\\ (a) Find the ratio of the two planets’ orbital radii.\\\\ (b) Find the ratio of the two planets’ periods.
+			\vfill
+			\columnbreak
+			\noindent{Find ratio of orbital radii:}
+			\[
+				\frac
+                {F_A=\frac{Gm_pm_s}{r_A^2}}
+                {F_B=\frac{Gm_pm_s}{r_B^2}}
+                \indent
+                \frac{r_A}{r_B}=\frac
+                {3^2}
+                {1^2}
+			\]
+			\[
+             	\frac{r_A}{r_B}=9
+			\]
+			Find ratio of periods:
+			\[
+             	\frac
+                {T_A^2=r_A^3}
+                {T_B^2=r_B^3}
+                \indent
+                \frac
+                {T_A}
+				{T_B} = \frac{3^3}{1^3}
+			\]
+			\[
+             	\frac{T_A}{T_B}=27
+			\]
+		\end{multicols}
+        
+\section{Work and Energy}
         
 \end{document}
