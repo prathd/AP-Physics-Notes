@@ -1,0 +1,826 @@
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  18 MAY 2017 11:49
+ restricted system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count87
+\calc@Bcount=\count88
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count89
+\calc@Cskip=\skip45
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen105
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks18
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks19
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks20
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count102
+\l_MT_multwidth_dim=\dimen114
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen115
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen116
+\l_MT_above_intertext_sep=\dimen117
+\l_MT_below_intertext_sep=\dimen118
+\l_MT_above_shortintertext_sep=\dimen119
+\l_MT_below_shortintertext_sep=\dimen120
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/lualatex/luatex-def/luatex.def
+File: luatex.def 2016/01/23 v0.01b Graphics/Color for luaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen123
+\Gm@wd@mp=\dimen124
+\Gm@odd@mp=\dimen125
+\Gm@even@mp=\dimen126
+\Gm@layoutwidth=\dimen127
+\Gm@layoutheight=\dimen128
+\Gm@layouthoffset=\dimen129
+\Gm@layoutvoffset=\dimen130
+\Gm@dimlist=\toks22
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count107
+\mult@box=\box28
+\multicol@leftmargin=\dimen131
+\c@unbalance=\count108
+\c@collectmore=\count109
+\doublecol@number=\count110
+\multicoltolerance=\count111
+\multicolpretolerance=\count112
+\full@width=\dimen132
+\page@free=\dimen133
+\premulticols=\dimen134
+\postmulticols=\dimen135
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen136
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count113
+\c@finalcolumnbadness=\count114
+\last@try=\dimen137
+\multicolovershoot=\dimen138
+\multicolundershoot=\dimen139
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count115
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip52
+\enit@outerparindent=\dimen140
+\enit@toks=\toks23
+\enit@inbox=\box54
+\enitdp@description=\count116
+)
+(./main.aux)
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen141
+\scratchbox=\box55
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen142
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+))))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/local/texlive/2016/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
+\pdftexcmds@toks=\toks26
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=28.45274pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (./main.toc
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write3
+
+\openout3 = main.toc
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+
+<./img/ProjectileMotion.jpg, id=14, 589.7232pt x 313.6518pt>
+File: ./img/ProjectileMotion.jpg Graphic file (type jpg)
+
+<use ./img/ProjectileMotion.jpg>
+Package luatex.def Info: ./img/ProjectileMotion.jpg used on input line 63.
+(luatex.def)             Requested size: 227.62204pt x 121.06021pt.
+
+Overfull \hbox (21.9709pt too wide) in paragraph at lines 63--64
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
+
+ []
+
+[3<./img/ProjectileMotion.jpg>]
+<./img/tableInertia.png, id=26, 323.2075pt x 268.00125pt>
+File: ./img/tableInertia.png Graphic file (type png)
+
+<use ./img/tableInertia.png>
+Package luatex.def Info: ./img/tableInertia.png used on input line 125.
+(luatex.def)             Requested size: 142.26378pt x 117.96179pt.
+
+<./img/thirdLaw.png, id=27, 202.7575pt x 89.33376pt>
+File: ./img/thirdLaw.png Graphic file (type png)
+ <use ./img/thirdLaw.png>
+Package luatex.def Info: ./img/thirdLaw.png used on input line 140.
+(luatex.def)             Requested size: 170.71652pt x 75.2184pt.
+
+[4<./img/tableInertia.png><./img/thirdLaw.png>]
+<./img/normalForce.png, id=33, 313.17pt x 228.855pt>
+File: ./img/normalForce.png Graphic file (type png)
+
+<use ./img/normalForce.png>
+Package luatex.def Info: ./img/normalForce.png used on input line 164.
+(luatex.def)             Requested size: 113.81102pt x 83.16994pt.
+
+<./img/atwood.png, id=34, 597.23125pt x 648.4225pt>
+File: ./img/atwood.png Graphic file (type png)
+ <use ./img/atwood.png>
+Package luatex.def Info: ./img/atwood.png used on input line 171.
+(luatex.def)             Requested size: 85.35826pt x 92.6683pt.
+
+<./img/pvt_air.png, id=35, 715.67375pt x 537.00626pt>
+File: ./img/pvt_air.png Graphic file (type png)
+ <use ./img/pvt_air.png>
+Package luatex.def Info: ./img/pvt_air.png used on input line 198.
+(luatex.def)             Requested size: 142.26378pt x 106.74382pt.
+
+<./img/vvt_air.png, id=36, 718.685pt x 536.0025pt>
+File: ./img/vvt_air.png Graphic file (type png)
+ <use ./img/vvt_air.png>
+Package luatex.def Info: ./img/vvt_air.png used on input line 198.
+(luatex.def)             Requested size: 142.26378pt x 106.10265pt.
+
+<./img/avt_air.png, id=37, 717.68124pt x 538.01pt>
+File: ./img/avt_air.png Graphic file (type png)
+ <use ./img/avt_air.png>
+Package luatex.def Info: ./img/avt_air.png used on input line 198.
+(luatex.def)             Requested size: 142.26378pt x 106.6478pt.
+
+Overfull \hbox (7.44655pt too wide) detected at line 221
+\OML/cmm/m/it/10 mABe[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 kA
+e[][]mB \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 k[]B \OT1/cmr/m/n/
+10 = [][][]
+ []
+
+
+Overfull \vbox (9.19618pt too high) has occurred while \output is active []
+
+
+[5<./img/normalForce.png><./img/atwood.png><./img/pvt_air.png><./img/vvt_air.png
+><./img/avt_air.png>] <./img/dice.png, id=45, 146.5475pt x 67.25125pt>
+File: ./img/dice.png Graphic file (type png)
+
+<use ./img/dice.png>
+Package luatex.def Info: ./img/dice.png used on input line 255.
+(luatex.def)             Requested size: 142.26378pt x 65.28491pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+<./img/frictionPlane.png, id=46, 375.4025pt x 142.5325pt>
+File: ./img/frictionPlane.png Graphic file (type png)
+
+<use ./img/frictionPlane.png>
+Package luatex.def Info: ./img/frictionPlane.png used on input line 279.
+(luatex.def)             Requested size: 170.71652pt x 64.81758pt.
+
+Overfull \hbox (58.37813pt too wide) detected at line 289
+\OT1/cmr/m/n/10 [] = \OML/cmm/m/it/10 m[][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10
+ m[]g []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  
+ \OML/cmm/m/it/10 T \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []m[]g []\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 m[]\OT
+1/cmr/m/n/10 )\OML/cmm/m/it/10 g []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 \OT1/cmr/
+m/n/10 )
+ []
+
+
+Overfull \hbox (30.00322pt too wide) detected at line 293
+[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m[]g []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []m[]g []\OT1/cmr/m/n/1
+0 (\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\
+OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 m[]\OT1
+/cmr/m/n/10 )\OML/cmm/m/it/10 g []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 \OT1/cmr/m
+/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 m[][]
+ []
+
+[6
+Missing character: There is no ’ (U+2019) in font cmr10!
+<./img/dice.png><./img/frictionPlane.png>]
+<./img/circularMotion.png, id=52, 279.0425pt x 285.065pt>
+File: ./img/circularMotion.png Graphic file (type png)
+
+<use ./img/circularMotion.png>
+Package luatex.def Info: ./img/circularMotion.png used on input line 315.
+(luatex.def)             Requested size: 142.26378pt x 145.33772pt.
+
+<./img/bankedCurve.png, id=53, 399.4925pt x 218.8175pt>
+File: ./img/bankedCurve.png Graphic file (type png)
+
+<use ./img/bankedCurve.png>
+Package luatex.def Info: ./img/bankedCurve.png used on input line 334.
+(luatex.def)             Requested size: 142.26378pt x 77.92282pt.
+ [7<./img/circularMotion.png><./img/bankedCurve.png>] <./img/noncirc.png, id=58
+, 581.17125pt x 349.305pt>
+File: ./img/noncirc.png Graphic file (type png)
+ <use ./img/noncirc.png>
+Package luatex.def Info: ./img/noncirc.png used on input line 415.
+(luatex.def)             Requested size: 170.71652pt x 102.60701pt.
+
+[8
+Missing character: There is no – (U+2013) in font cmr10!
+<./img/noncirc.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 468--470
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--470
+
+ []
+
+<./img/p27.png, id=63, 105.39375pt x 105.39375pt>
+File: ./img/p27.png Graphic file (type png)
+ <use ./img/p27.png>
+Package luatex.def Info: ./img/p27.png used on input line 490.
+(luatex.def)             Requested size: 170.71652pt x 170.72083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+
+ []
+
+<./img/graph27.png, id=64, 284.5029pt x 213.4374pt>
+File: ./img/graph27.png Graphic file (type png)
+ <use ./img/graph27.png>
+Package luatex.def Info: ./img/graph27.png used on input line 519.
+(luatex.def)             Requested size: 227.62204pt x 170.76315pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--520
+
+ []
+
+[9
+Missing character: There is no ’ (U+2019) in font cmr10!
+Missing character: There is no ’ (U+2019) in font cmr10!
+Missing character: There is no ’ (U+2019) in font cmr10!
+<./img/p27.png><./img/graph27.png>]
+<./img/keplar.png, id=69, 632.3625pt x 542.025pt>
+File: ./img/keplar.png Graphic file (type png)
+ <use ./img/keplar.png>
+Package luatex.def Info: ./img/keplar.png used on input line 531.
+(luatex.def)             Requested size: 199.16928pt x 170.71396pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--536
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--595
+
+ []
+
+[10
+Missing character: There is no ’ (U+2019) in font cmr10!
+Missing character: There is no ’ (U+2019) in font cmr10!
+<./img/keplar.png>] [11] <./img/p1.png, id=78, 284.5029pt x 113.7048pt>
+File: ./img/p1.png Graphic file (type png)
+
+<use ./img/p1.png>
+Package luatex.def Info: ./img/p1.png used on input line 666.
+(luatex.def)             Requested size: 227.62204pt x 90.97089pt.
+ <./img/p2.png, id=79, 284.5029pt x 113.7048pt>
+File: ./img/p2.png Graphic file (type png)
+
+<use ./img/p2.png>
+Package luatex.def Info: ./img/p2.png used on input line 668.
+(luatex.def)             Requested size: 227.62204pt x 90.97089pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--674
+
+ []
+
+[12
+Missing character: There is no – (U+2013) in font cmr10!
+<./img/p1.png><./img/p2.png>] [13
+Missing character: There is no ’ (U+2019) in font cmr10!
+Missing character: There is no ’ (U+2019) in font cmr10!
+]
+<./img/conMomentum.png, id=86, 225.84375pt x 275.0275pt>
+File: ./img/conMomentum.png Graphic file (type png)
+
+<use ./img/conMomentum.png>
+Package luatex.def Info: ./img/conMomentum.png used on input line 722.
+(luatex.def)             Requested size: 170.71652pt x 207.90677pt.
+ [14<./img/conMomentum.png>]
+<./img/collisionP.png, id=90, 621.32124pt x 268.00125pt>
+File: ./img/collisionP.png Graphic file (type png)
+
+<use ./img/collisionP.png>
+Package luatex.def Info: ./img/collisionP.png used on input line 764.
+(luatex.def)             Requested size: 426.79134pt x 184.09091pt.
+ [15<./img/collisionP.png>] [16]
+<./img/cmi1.png, id=97, 284.5029pt x 113.7048pt>
+File: ./img/cmi1.png Graphic file (type png)
+ <use ./img/cmi1.png>
+Package luatex.def Info: ./img/cmi1.png used on input line 857.
+(luatex.def)             Requested size: 369.88582pt x 147.8301pt.
+
+<./img/cmi2.png, id=98, 284.5029pt x 113.7048pt>
+File: ./img/cmi2.png Graphic file (type png)
+ <use ./img/cmi2.png>
+Package luatex.def Info: ./img/cmi2.png used on input line 858.
+(luatex.def)             Requested size: 369.88582pt x 147.8301pt.
+
+<./img/cmi3.png, id=99, 284.5029pt x 113.7048pt>
+File: ./img/cmi3.png Graphic file (type png)
+ <use ./img/cmi3.png>
+Package luatex.def Info: ./img/cmi3.png used on input line 859.
+(luatex.def)             Requested size: 369.88582pt x 147.8301pt.
+
+<./img/cmi4.png, id=100, 284.5029pt x 113.7048pt>
+File: ./img/cmi4.png Graphic file (type png)
+ <use ./img/cmi4.png>
+Package luatex.def Info: ./img/cmi4.png used on input line 860.
+(luatex.def)             Requested size: 369.88582pt x 147.8301pt.
+ [17<./img/cmi1.png><./img/cmi2.png><./img/cmi3.png>]
+<./img/wrench.png, id=104, 293.095pt x 210.7875pt>
+File: ./img/wrench.png Graphic file (type png)
+ <use ./img/wrench.png>
+Package luatex.def Info: ./img/wrench.png used on input line 873.
+(luatex.def)             Requested size: 142.26378pt x 102.31223pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--883
+
+ []
+
+[18
+Missing character: There is no ’ (U+2019) in font cmr10!
+<./img/cmi4.png><./img/wrench.png>] [19
+Missing character: There is no ’ (U+2019) in font cmr10!
+Missing character: There is no ’ (U+2019) in font cmr10!
+]
+Underfull \hbox (badness 10000) in paragraph at lines 982--985
+
+ []
+
+[20
+Missing character: There is no ’ (U+2019) in font cmr10!
+]
+Underfull \hbox (badness 10000) in paragraph at lines 987--988
+
+ []
+
+<./img/energyGr.png, id=114, 654.445pt x 358.33875pt>
+File: ./img/energyGr.png Graphic file (type png)
+ <use ./img/energyGr.png>
+Package luatex.def Info: ./img/energyGr.png used on input line 1002.
+(luatex.def)             Requested size: 398.33858pt x 218.11061pt.
+
+<./img/simPen.png, id=115, 286.06876pt x 299.1175pt>
+File: ./img/simPen.png Graphic file (type png)
+ <use ./img/simPen.png>
+Package luatex.def Info: ./img/simPen.png used on input line 1019.
+(luatex.def)             Requested size: 142.26378pt x 148.75508pt.
+
+[21<./img/energyGr.png>]
+Overfull \hbox (22.04068pt too wide) detected at line 1024
+\OML/cmm/m/it/10  \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 [] []\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 !t \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 \OT1/cmr/m/n/10 )[][]
+ []
+
+<./img/phyPen.png, id=120, 264.99pt x 273.02pt>
+File: ./img/phyPen.png Graphic file (type png)
+ <use ./img/phyPen.png>
+Package luatex.def Info: ./img/phyPen.png used on input line 1041.
+(luatex.def)             Requested size: 142.26378pt x 146.57458pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1048
+
+ []
+
+[22
+Missing character: There is no ’ (U+2019) in font cmr10!
+<./img/simPen.png><./img/phyPen.png>]
+<./img/charges.png, id=124, 300.12125pt x 149.55875pt>
+File: ./img/charges.png Graphic file (type png)
+ <use ./img/charges.png>
+Package luatex.def Info: ./img/charges.png used on input line 1056.
+(luatex.def)             Requested size: 142.26378pt x 70.89508pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1064
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
+
+ []
+
+[23
+Missing character: There is no ’ (U+2019) in font cmr10!
+Missing character: There is no ’ (U+2019) in font cmbx10!
+<./img/charges.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1116
+
+ []
+
+<./img/fieldLines.png, id=128, 273.02pt x 279.0425pt>
+File: ./img/fieldLines.png Graphic file (type png)
+
+<use ./img/fieldLines.png>
+Package luatex.def Info: ./img/fieldLines.png used on input line 1122.
+(luatex.def)             Requested size: 113.81102pt x 116.31993pt.
+ [24<./img/fieldLines.png>]
+<./img/gaussLaw.png, id=132, 249.93375pt x 207.77625pt>
+File: ./img/gaussLaw.png Graphic file (type png)
+
+<use ./img/gaussLaw.png>
+Package luatex.def Info: ./img/gaussLaw.png used on input line 1149.
+(luatex.def)             Requested size: 113.81102pt x 94.61443pt.
+ [25
+Missing character: There is no ’ (U+2019) in font cmr10!
+Missing character: There is no ’ (U+2019) in font cmbx10!
+<./img/gaussLaw.png>] (./main.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 4420 strings out of 495119
+ 100000,154059 words of node,token memory allocated
+ 9375 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 1285 glue, 1 kern, 44 glue_spec, 1 write nodes
+   avail lists: 2:14,3:252,4:20,5:597,6:3496,7:602,8:61,9:744,10:18,11:322
+ 7474 multiletter control sequences out of 65536+600000
+ 60 fonts using 2491903 bytes
+ 38i,6n,35p,792b,277s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (25 pages, 1877881 bytes).
+
+PDF statistics: 188 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
